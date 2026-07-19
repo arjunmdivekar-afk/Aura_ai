@@ -1,0 +1,72 @@
+# Python Dependencies for Aura AI Backend
+
+# Core Framework
+fastapi==0.109.0
+uvicorn[standard]==0.27.0
+python-multipart==0.0.6
+pydantic==2.5.3
+pydantic-settings==2.1.0
+
+# AI & LLM Integration
+ollama==0.1.6
+requests==2.31.0
+httpx==0.26.0
+
+# RAG & Vector Search
+langchain==0.1.0
+langchain-community==0.0.10
+chromadb==0.4.22
+sentence-transformers==2.2.2
+
+# File Processing
+PyPDF2==3.0.1
+python-docx==1.1.0
+openpyxl==3.1.2
+python-pptx==0.6.23
+Pillow==10.2.0
+pytesseract==0.3.10
+moviepy==1.0.3
+
+# Voice & Audio
+openai-whisper==20231117
+TTS==0.21.1
+soundfile==0.12.1
+
+# Web Scraping & Search
+beautifulsoup4==4.12.2
+selenium==4.16.0
+duckduckgo-search==4.1.1
+wikipedia==1.4.0
+googlesearch-python==1.2.3
+
+# Code Execution
+jupyter-client==8.6.0
+nbformat==5.9.2
+nbconvert==7.14.0
+ipython==8.20.0
+
+# GitHub Integration
+PyGithub==2.1.1
+
+# Utilities
+python-dotenv==1.0.0
+aiofiles==23.2.1
+websockets==12.0
+json5==0.9.14
+markdown==3.5.2
+mermaid-python==0.1.0
+
+# Security
+cryptography==41.0.7
+passlib==1.7.4
+bcrypt==4.1.2
+
+# Monitoring & Performance
+psutil==5.9.7
+pynvml==11.5.0
+prometheus-client==0.19.0
+
+# Image Generation
+diffusers==0.25.0
+torch==2.1.2
+transformers==4.36.2
